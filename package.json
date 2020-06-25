@@ -2,7 +2,8 @@
   "name": "myshopzone",
   "version": "0.1.0",
   "engines":{
-    "node": "12.x"
+    "node": "12.18.1",
+    "npm": "6.14.5"
   },
   "private": true,
   "dependencies": {
