@@ -18,8 +18,7 @@ function App() {
         >
           Learn React
         </a>
-        <a href='http://www.freevisitorcounters.com'>Free counter</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=3920b7f336e15b50e6f2a141e05cbbc98574fbc8'></script>
-        <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/713197/t/11"></script>
+       
       </header>
     </div>
   );
