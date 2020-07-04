@@ -3,9 +3,9 @@ import React from 'react'
 export default class Navbar extends React.Component{
     render() {
         return (
-            <header className="App-header">
-                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                    <a class="navbar-brand text-warning" href="/">myshopzone</a>
+          <div>
+                <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                    <a class="navbar-brand text-light" href="/">myshopzone</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -31,8 +31,7 @@ export default class Navbar extends React.Component{
                         </form>
                     </div>
                 </nav>
-            </header>
-           
+            </div>
         )
     }
 }
