@@ -5,7 +5,7 @@ export default class Navbar extends React.Component{
         return (
           <div>
                 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                    <a class="navbar-brand text-light" href="/">myshopzone</a>
+                    <a class="navbar-brand text-light font-weight-bold" href="/">myshopzone</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
