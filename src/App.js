@@ -1,16 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './App.css';
 import Navbar from './components/Navbar';
-import Slider from './components/Slider';
-import Deals from './components/Deals';
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Slider />
-      <Deals />
-      </div>
-  );
-}
+import Shirt from './components/Shirt';
 
-export default App;
+import Home from './components/Home';
+export default class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+            <Navbar />
+          <Route path="/" exact component={Home} />
+          <Route path="/Shirt" exact component={Shirt} />
+        </div>
+      </Router>
+    );
+  }
+}
